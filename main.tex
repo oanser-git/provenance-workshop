@@ -1,0 +1,36 @@
+\documentclass[11pt,aspectratio=169,english]{beamer}
+
+\input{tex/preamble}
+\input{tex/commands}
+
+\title[Neuro-Symbolic Process Classification]{Investigating Neuro-Symbolic AI for Context-Aware Process Classification with MITRE \attack{} Techniques}
+\author[O. Anser, L. Lavaur, J. Francois]{Omar Anser, Léo Lavaur, Jérôme Francois}
+\institute[SEDAN team - SnT]{SEDAN team\\SnT - University of Luxembourg}
+\date{}
+
+\begin{document}
+
+\input{sections/title}
+
+\input{sections/01_context/coctel}
+\input{sections/01_context/deep_learning_security}
+\input{sections/01_context/black_box}
+\input{sections/01_context/gray_box}
+
+\input{sections/02_method/process_classification}
+\input{sections/02_method/mlp_baseline}
+\input{sections/02_method/ambiguous_cases}
+\input{sections/02_method/symbolic_rules}
+\input{sections/02_method/lr_inf}
+\input{sections/02_method/lr_kd}
+\input{sections/02_method/lr_e2e}
+
+\input{sections/03_results/rule_guidance}
+\input{sections/03_results/model_comparison}
+
+\input{sections/04_provenance/limitations}
+\input{sections/04_provenance/extension}
+\input{sections/04_provenance/reasoning}
+\input{sections/04_provenance/conclusion}
+
+\end{document}

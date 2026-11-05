@@ -1,0 +1,27 @@
+\begin{frame}{Adding Explicit Contextual Knowledge}
+    \footnotesize
+    \vspace{0.2em}
+    \centering
+    \includegraphics[width=0.94\linewidth]{figures/diagrams/symbolic_rules.pdf}
+
+    \vspace{0.1em}
+    \begin{columns}[T,onlytextwidth]
+        \column{0.48\linewidth}
+        \begin{beamercolorbox}[wd=\linewidth,sep=0.35em,rounded=true]{defbox}
+            \textbf{Ligolo-ng rule}\par
+            \vspace{0.1em}
+            \texttt{ping} linked to an active Ligolo-ng session\par
+            {\color{structure.fg}\textbf{$+$ Protocol Tunneling}}\par
+            {\color{black!62}$-$ Network Service Discovery}
+        \end{beamercolorbox}
+
+        \column{0.48\linewidth}
+        \begin{beamercolorbox}[wd=\linewidth,sep=0.35em,rounded=true]{defbox}
+            \textbf{LinPEAS rule}\par
+            \vspace{0.1em}
+            \texttt{grep} linked to an active LinPEAS run\par
+            {\color{structure.fg}\textbf{$+$ Exploitation for Privilege Escalation}}\par
+            {\color{black!62}$-$ System Information Discovery}
+        \end{beamercolorbox}
+    \end{columns}
+\end{frame}

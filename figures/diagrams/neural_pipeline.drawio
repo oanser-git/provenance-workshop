@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="31.7.0">
+  <diagram id="neural_pipeline" name="Neural Pipeline">
+    <mxGraphModel dx="1320" dy="100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1320" pageHeight="100" math="0" shadow="0" background="none">
+      <root>
+        <mxCell id="0" style="" />
+        <mxCell id="1" parent="0" style="" />
+        <mxCell id="observations" value="Observations" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BFBFBF;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=32;fontStyle=0;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="0" y="0" width="290" height="88" />
+        </mxCell>
+        <mxCell id="model" value="Complex neural computational graph&lt;br&gt;→ Feature extraction" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BFBFBF;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=32;fontStyle=0;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="365" y="0" width="570" height="88" />
+        </mxCell>
+        <mxCell id="output" value="Class /&lt;br&gt;anomaly score" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#BFBFBF;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=32;fontStyle=0;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="1010" y="0" width="300" height="88" />
+        </mxCell>
+        <mxCell id="edge-1" value="" edge="1" parent="1" source="observations" target="model" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;fontFamily=Helvetica;fontSize=28;fontColor=#222222;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-2" value="" edge="1" parent="1" source="model" target="output" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#666666;strokeWidth=2;fontFamily=Helvetica;fontSize=28;fontColor=#222222;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

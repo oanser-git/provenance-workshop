@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="31.7.0">
+  <diagram id="lr_inf" name="Lr Inf">
+    <mxGraphModel dx="1570" dy="175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1570" pageHeight="175" math="0" shadow="0" background="none">
+      <root>
+        <mxCell id="0" style="" />
+        <mxCell id="1" parent="0" style="" />
+        <mxCell id="stage-0" value="neural model" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F0F6FA;strokeColor=#7FACCF;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=32;fontStyle=1;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="0" y="55" width="310" height="130" />
+        </mxCell>
+        <mxCell id="stage-1" value="neural scores&lt;br&gt;&lt;i&gt;z&lt;/i&gt;&lt;sub&gt;i&lt;/sub&gt;" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F0F6FA;strokeColor=#7FACCF;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=32;fontStyle=1;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="420" y="55" width="310" height="130" />
+        </mxCell>
+        <mxCell id="edge-1" value="" edge="1" parent="1" source="stage-0" target="stage-1" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#9480BA;strokeWidth=2;fontFamily=Helvetica;fontSize=27;fontColor=#222222;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="stage-2" value="apply active rules&lt;br&gt;&lt;span style=&quot;font-weight:normal&quot;&gt;&lt;i&gt;z&lt;/i&gt;′&lt;sub&gt;i&lt;/sub&gt; = &lt;i&gt;z&lt;/i&gt;&lt;sub&gt;i&lt;/sub&gt; + αΔ&lt;sub&gt;i&lt;/sub&gt;&lt;/span&gt;" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F3F1F8;strokeColor=#A294C7;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=32;fontStyle=1;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="840" y="55" width="310" height="130" />
+        </mxCell>
+        <mxCell id="edge-2" value="" edge="1" parent="1" source="stage-1" target="stage-2" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#9480BA;strokeWidth=2;fontFamily=Helvetica;fontSize=27;fontColor=#222222;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="stage-3" value="corrected&lt;br&gt;prediction" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EFF6F2;strokeColor=#83B59B;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=32;fontStyle=1;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="1260" y="55" width="310" height="130" />
+        </mxCell>
+        <mxCell id="edge-3" value="" edge="1" parent="1" source="stage-2" target="stage-3" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#78AB90;strokeWidth=2;fontFamily=Helvetica;fontSize=27;fontColor=#222222;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="rule-marker" value="RULES ACT HERE" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#6750A4;fontFamily=Helvetica;fontSize=25;fontStyle=1;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="840" y="0" width="310" height="40" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

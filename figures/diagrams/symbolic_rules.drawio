@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="31.7.0">
+  <diagram id="symbolic_rules" name="Symbolic Rules">
+    <mxGraphModel dx="1280" dy="320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1280" pageHeight="320" math="0" shadow="0" background="none">
+      <root>
+        <mxCell id="0" style="" />
+        <mxCell id="1" parent="0" style="" />
+        <mxCell id="neural-label" value="NEURAL" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#2A7ABC;fontFamily=Helvetica;fontSize=24;fontStyle=1;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="0" y="15" width="145" height="85" />
+        </mxCell>
+        <mxCell id="symbolic-label" value="SYMBOLIC" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#6750A4;fontFamily=Helvetica;fontSize=24;fontStyle=1;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="0" y="215" width="145" height="85" />
+        </mxCell>
+        <mxCell id="neural-0" value="process tokens&lt;br&gt;&lt;i&gt;x&lt;/i&gt;&lt;sub&gt;i&lt;/sub&gt;" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F0F6FA;strokeColor=#84B1D3;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=31;fontStyle=1;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="170" y="0" width="310" height="115" />
+        </mxCell>
+        <mxCell id="neural-1" value="MLP" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F0F6FA;strokeColor=#84B1D3;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=31;fontStyle=1;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="605" y="0" width="290" height="115" />
+        </mxCell>
+        <mxCell id="neural-2" value="MLP scores&lt;br&gt;&lt;i&gt;z&lt;/i&gt;&lt;sub&gt;i&lt;/sub&gt;" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F0F6FA;strokeColor=#84B1D3;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=31;fontStyle=1;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="1020" y="0" width="260" height="115" />
+        </mxCell>
+        <mxCell id="edge-1" value="" edge="1" parent="1" source="neural-0" target="neural-1" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#719CC6;strokeWidth=2;fontFamily=Helvetica;fontSize=26;fontColor=#222222;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-2" value="" edge="1" parent="1" source="neural-1" target="neural-2" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#719CC6;strokeWidth=2;fontFamily=Helvetica;fontSize=26;fontColor=#222222;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="symbolic-0" value="process context&lt;br&gt;relations&lt;br&gt;&lt;i&gt;A&lt;/i&gt;&lt;sub&gt;i&lt;/sub&gt; = φ(&lt;i&gt;x&lt;/i&gt;&lt;sub&gt;i&lt;/sub&gt;)" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F3F1F8;strokeColor=#A79BCA;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=31;fontStyle=1;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="170" y="195" width="310" height="115" />
+        </mxCell>
+        <mxCell id="symbolic-1" value="analyst-written&lt;br&gt;rules" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EFF6F2;strokeColor=#8CBBA1;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=31;fontStyle=1;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="605" y="195" width="290" height="115" />
+        </mxCell>
+        <mxCell id="symbolic-2" value="rule evidence&lt;br&gt;Δ&lt;sub&gt;i&lt;/sub&gt;" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EFF6F2;strokeColor=#8CBBA1;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=31;fontStyle=1;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="1020" y="195" width="260" height="115" />
+        </mxCell>
+        <mxCell id="edge-3" value="" edge="1" parent="1" source="symbolic-0" target="symbolic-1" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#9480BA;strokeWidth=2;fontFamily=Helvetica;fontSize=26;fontColor=#222222;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-4" value="" edge="1" parent="1" source="symbolic-1" target="symbolic-2" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#78AB90;strokeWidth=2;fontFamily=Helvetica;fontSize=26;fontColor=#222222;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

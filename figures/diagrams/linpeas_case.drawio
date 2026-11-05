@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="31.7.0">
+  <diagram id="linpeas_case" name="Linpeas Case">
+    <mxGraphModel dx="665" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="665" pageHeight="400" math="0" shadow="0" background="none">
+      <root>
+        <mxCell id="0" style="" />
+        <mxCell id="1" parent="0" style="" />
+        <mxCell id="card" value="" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D6D6D6;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=29;fontStyle=0;align=center;verticalAlign=middle;spacing=5;arcSize=5;">
+          <mxGeometry as="geometry" x="0" y="0" width="665" height="400" />
+        </mxCell>
+        <mxCell id="header" value="" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#E6F3FF;strokeColor=none;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=29;fontStyle=0;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="20" y="12" width="625" height="68" />
+        </mxCell>
+        <mxCell id="title" value="LinPEAS" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=35;fontStyle=1;align=center;verticalAlign=middle;spacing=5;align=left;">
+          <mxGeometry as="geometry" x="32" y="22" width="210" height="48" />
+        </mxCell>
+        <mxCell id="count" value="1,094 processes" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#6B6B6B;fontFamily=Helvetica;fontSize=29;fontStyle=0;align=center;verticalAlign=middle;spacing=5;align=right;">
+          <mxGeometry as="geometry" x="365" y="22" width="265" height="48" />
+        </mxCell>
+        <mxCell id="observed" value="&lt;b&gt;Observed process:&lt;/b&gt; &lt;font face=&quot;monospace&quot;&gt;grep&lt;/font&gt;" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=32;fontStyle=0;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="60" y="95" width="545" height="56" />
+        </mxCell>
+        <mxCell id="predtag" value="Models predict" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F9F0F0;strokeColor=#E5BDBD;strokeWidth=1.5;fontColor=#A64242;fontFamily=Helvetica;fontSize=29;fontStyle=1;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="25" y="190" width="185" height="82" />
+        </mxCell>
+        <mxCell id="predvalue" value="System Information&lt;br&gt;Discovery" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#FBF5F5;strokeColor=#E5BDBD;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=29;fontStyle=1;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="335" y="190" width="305" height="82" />
+        </mxCell>
+        <mxCell id="goldtag" value="Expected" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#EDF4F0;strokeColor=#ACD0BD;strokeWidth=1.5;fontColor=#2F7351;fontFamily=Helvetica;fontSize=29;fontStyle=1;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="25" y="295" width="185" height="82" />
+        </mxCell>
+        <mxCell id="goldvalue" value="Exploitation for&lt;br&gt;Privilege Escalation" vertex="1" parent="1" style="rounded=1;arcSize=12;whiteSpace=wrap;html=1;fillColor=#F3F8F5;strokeColor=#ACD0BD;strokeWidth=1.5;fontColor=#222222;fontFamily=Helvetica;fontSize=29;fontStyle=1;align=center;verticalAlign=middle;spacing=5;">
+          <mxGeometry as="geometry" x="335" y="295" width="305" height="82" />
+        </mxCell>
+        <mxCell id="edge-1" value="" edge="1" parent="1" source="predtag" target="predvalue" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#B84848;strokeWidth=2;fontFamily=Helvetica;fontSize=25;fontColor=#222222;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-2" value="" edge="1" parent="1" source="goldtag" target="goldvalue" style="edgeStyle=none;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#37875F;strokeWidth=2;fontFamily=Helvetica;fontSize=25;fontColor=#222222;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

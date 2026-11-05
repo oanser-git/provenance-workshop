@@ -1,0 +1,8 @@
+/build/
+/archive/previous-exports/
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+*.drawio.bkp
+*.drawio.dtmp

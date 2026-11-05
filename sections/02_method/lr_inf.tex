@@ -1,0 +1,25 @@
+\begin{frame}{LR-INF: Correct at Prediction Time}
+    \small
+    \textbf{Idea:} apply expert rules after the neural model, only for the current prediction.
+
+    \vspace{0.75em}
+    \centering
+    \includegraphics[width=0.94\linewidth]{figures/diagrams/lr_inf.pdf}
+
+    \vspace{0.9em}
+    \begin{columns}[T,onlytextwidth]
+        \column{0.48\linewidth}
+        \begin{beamercolorbox}[wd=\linewidth,sep=0.65em,rounded=true]{defbox}
+            \textbf{Model change}\par
+            \vspace{0.2em}
+            None. The neural parameters remain fixed.
+        \end{beamercolorbox}
+
+        \column{0.48\linewidth}
+        \begin{beamercolorbox}[wd=\linewidth,sep=0.65em,rounded=true]{takebox}
+            \textbf{Deployment}\par
+            \vspace{0.2em}
+            Neural model + rule engine.
+        \end{beamercolorbox}
+    \end{columns}
+\end{frame}
